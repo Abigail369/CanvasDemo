@@ -25,6 +25,10 @@ const menus = ref([
     name: "gobang",
     path: "/gobang",
   },
+  {
+    name: "cat",
+    path: "/cat",
+  },
 ]);
 const clickMenu = (item: { path: string; name: string }) => {
   router.push(item.path);

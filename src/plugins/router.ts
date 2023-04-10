@@ -33,6 +33,11 @@ const router = createRouter({
           name: "gobang",
           component: () => import("@/components/Gobang/index.vue"),
         },
+        {
+          path: "/cat",
+          name: "cat",
+          component: () => import("@/components/Cat/index.vue"),
+        },
       ],
     },
   ],
