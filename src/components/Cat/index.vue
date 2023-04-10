@@ -5,10 +5,10 @@
       <canvas id="canvas" width="500" height="500"></canvas>
       <div class="btns">
         <div class="btn" @click="save">保存</div>
-        <div class="btn" @click="filter1">黑白</div>
+        <!-- <div class="btn" @click="filter1">黑白</div>
         <div class="btn" @click="filter2">曝光</div>
         <div class="btn" @click="backToOriginal">还原</div>
-        <div class="btn btn1">{{ selectColor }}</div>
+        <div class="btn btn1">{{ selectColor }}</div> -->
       </div>
     </div>
     <img src="" alt="" ref="imgOnPage" />
